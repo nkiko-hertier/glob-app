@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Home() {
+function Recordings() {
   return (
     <section className='flex flex-col gap-10 size-full'>
-        <h1 className='text-2xl font-semibold'>Home</h1>
+        <h1 className='text-2xl font-semibold'>Recordings</h1>
     </section>
   )
 }
 
-export default Home
+export default Recordings

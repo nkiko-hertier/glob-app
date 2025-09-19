@@ -6,7 +6,7 @@ export const SideBarLinks = [
     },
     {
         label: 'Upcoming',
-        route: '/upcomming',
+        route: '/upcoming',
         image: '/icons/upcoming.svg',
     },
     {

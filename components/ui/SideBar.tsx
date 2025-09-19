@@ -14,7 +14,8 @@ function SideBar() {
     className='sticky bg-bg2 left-0 top-0 flex h-screen flex-col justify-between w-fit p-6 pt-28 max-md:hidden lg:w-[264px]'>
         <div className="flex flex-1 flex-col gap-6">
             { SideBarLinks.map((link, index) => {
-                const is_active = pathname == link.route || pathname.startsWith(link.route);
+                const startWith = pathname.startsWith(link.route);
+                const is_active = pathname == link.route || (index !== 0 && startWith);
                 return <Link 
                     href={link.route}
                     key={link.label}
