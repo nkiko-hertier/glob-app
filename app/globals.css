@@ -125,3 +125,35 @@
     @apply bg-background text-foreground;
   }
 }
+
+.cl-internal-1dauvpw{
+  display: none;
+}
+.cl-phoneInputBox {
+  background-color: #252a41 !important;
+  box-shadow: #4d5a9293 0px 0px 1px 0px !important;
+}
+
+.cl-phoneInputBox:focus-within{
+  box-shadow: #6b7cc993 0px 0px 1px 0px !important;
+}
+
+.cl-socialButtonsIconButton{
+  background: #252a41 !important;
+}
+
+.cl-socialButtonsProviderIcon__github.cl-providerIcon__github{
+  filter: brightness(30) !important;
+}
+
+.cl-internal-19qng2x{
+  color: white !important;
+}
+
+.cl-internal-l2l775{
+  display: none !important;
+}
+
+.bg-hero {
+  background-image: url('/images/hero-background.png');
+}
